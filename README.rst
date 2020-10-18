@@ -4,7 +4,8 @@ Electrum-Incog - Bitcoin Incognito
 ::
 
   Licence: MIT Licence
-  Author: Yun118
+  Author: Thomas Voegtlin
+  Port Maintainer: Yun118 (Electrum-Incog)
   Language: Python (>= 3.6)
   Homepage:none
 
@@ -61,13 +62,6 @@ or `cryptography`_ is required. Install from your package manager
     sudo apt-get install python3-cryptography
 
 
-If you would like hardware wallet support, see `this`_.
-
-.. _libsecp256k1: https://github.com/bitcoin-core/secp256k1
-.. _pycryptodomex: https://github.com/Legrandin/pycryptodome
-.. _cryptography: https://github.com/pyca/cryptography
-.. _this: https://github.com/spesmilo/electrum-docs/blob/master/hardware-linux.rst
-
 Running from tar.gz
 -------------------
 
@@ -85,7 +79,7 @@ You can also install Electrum on your system, by running this command::
 
 This will download and install the Python dependencies used by
 Electrum instead of using the 'packages' directory.
-It will also place an executable named :code:`electrum` in :code:`~/.local/bin`,
+It will also place an executable named :code:`Electrum-Incog` in :code:`~/.local/bin`,
 so make sure that is on your :code:`PATH` variable.
 
 
@@ -94,9 +88,12 @@ Development version (git clone)
 
 Check out the code from GitHub::
 
-    git clone git://github.com/spesmilo/electrum.git
-    cd electrum
+    git clone git://github.com/Yun118/electrum.git
+    cd Electrum-Incog
     git submodule update --init
+    
+    
+    *NEED TO KNOW XEVAN ALGORYTHM COMANDS
 
 Run install (this should install dependencies)::
 
