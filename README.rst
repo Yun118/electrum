@@ -1,12 +1,12 @@
-Electrum - Lightweight Bitcoin client
+Electrum-Incog - Bitcoin Incognito
 =====================================
 
 ::
 
   Licence: MIT Licence
-  Author: Thomas Voegtlin
+  Author: Yun118
   Language: Python (>= 3.6)
-  Homepage: https://electrum.org/
+  Homepage:none
 
 
 .. image:: https://travis-ci.org/spesmilo/electrum.svg?branch=master
@@ -26,9 +26,8 @@ Electrum - Lightweight Bitcoin client
 Getting started
 ===============
 
-(*If you've come here looking to simply run Electrum,* `you may download it here`_.)
+* THIS FORKED IS STILL IN PROCESS , DO NOT USE.
 
-.. _you may download it here: https://electrum.org/#download
 
 Electrum itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
